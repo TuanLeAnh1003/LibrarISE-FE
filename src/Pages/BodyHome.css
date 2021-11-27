@@ -1,0 +1,16 @@
+.body-home {
+    display: block;
+    text-align: center;
+}
+
+.body-home-img {
+    margin-top: 75px;
+    width: 365px;
+    height: 311px;
+}
+
+.body-home-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}

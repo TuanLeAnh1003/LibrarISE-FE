@@ -1,0 +1,93 @@
+.container-PMS {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 40px auto;  
+  width: 1100px;
+}
+
+.container-PMS .container__table {
+  align-self: center;
+  align-items: center;
+  margin-top: 30px;
+  overflow: auto;  
+
+}
+
+.container-PMS .table__book {
+  border-collapse: collapse;
+  border-bottom: 1px solid #c4c4c4;
+  font-size: 14px;
+  width: 1000px;
+  text-align: center;
+}
+
+.container-PMS td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+  border-left: none;
+  border-right: none;
+  max-width: 300px;
+}
+
+.container-PMS .table__book-header th {
+  background-image: linear-gradient(to bottom, #25bfa2, #348d7c);
+  position: sticky;
+  top: -1px;
+}
+
+.container-PMS td {
+  text-align: center;
+}
+
+.container-PMS .table__book-header {
+  color: #fff;  
+}
+
+.container-PMS .table__check {
+  padding: 5px 10px;
+  width: 30px;
+  height: 30px;
+  padding-left: 0;
+}
+
+.container-PMS .table__check input[type="checkbox"] {
+  outline: none;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  margin-left: 0;
+}
+/* 
+.container-PMS .table__check input[type="checkbox"]::before {   
+  content: "";
+  position: relative;
+  display: block;
+  background-color: #fff;
+} */
+
+.container-PMS .table__stt {
+  padding: 10px;
+}
+
+.container-PMS .container__button {
+  align-self: center;
+  margin-top: 40px;
+}
+
+.container-PMS .button {
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  background-image: linear-gradient(to bottom, #25bfa2, #348d7c);
+  width: 152.4px;
+  height: 42.7px;
+  margin: 0 50px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.container-PMS .button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

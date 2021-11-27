@@ -1,0 +1,81 @@
+.inform {
+  position: absolute;
+  z-index: 1000;
+  top: 67px;
+  left: -132px;
+  width: 444px;
+  height: 135px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  padding: 14px 20px;
+  border-radius: 6px;
+}
+
+.inform__triangle {
+  position: absolute;
+  left: 30%;
+  top: -10px;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent; 
+  border-bottom: 10px solid #fff; 
+}
+
+.inform__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.inform__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.inform__text > h4 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.inform__text > p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #348D7C;
+}
+
+.inform__content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #000;
+  border-radius: 3.6px;
+  height: 75px;
+  padding: 0 10px;
+}
+
+.inform__content > img {
+  object-fit: contain;
+  width: 85px;
+}
+
+.inform__content-details {
+  margin-left: 30px;
+}
+
+.inform__content-details > p:first-child {
+  font-size: 18px;
+}
+
+.inform__content-details > p:last-child {
+  font-size: 12px;
+}
+
+.inform__content-details > p:last-child > i {
+  margin-right: 5px;
+  font-size: 10px;
+}
+

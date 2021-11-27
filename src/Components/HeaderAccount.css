@@ -1,0 +1,28 @@
+.header-account {
+    display: flex;
+    align-items: center;
+    background-color: #348D7C;
+    box-shadow: -5px 0 2px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    margin-left: 49px;
+    width: 254px;
+    justify-content: space-between;
+}
+
+.header-account-avatar {
+    margin-left: 15px;
+    width: 45px;
+    height: 45px;
+}
+
+.header-account-name {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-account-down {
+    margin-right: 15px;
+    color: white;
+    font-size: 18px;
+}

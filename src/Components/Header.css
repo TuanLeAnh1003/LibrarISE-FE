@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    margin-top: 0;
+}
+
+.header-top {
+    background-color: #348D7C;
+    height: 71px;
+    display: flex;
+    align-items: center;
+}
+
+.header-top-logo {
+    margin-left: 100px;
+    padding-top: 20px;
+    width: 95px;
+    height: 86px;
+}
+
+.header-top-notify {
+    position: relative;
+    margin-left: 28px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.header-top-notify-icon {
+    font-size: 24px;
+    color: white;
+}
+

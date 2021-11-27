@@ -1,0 +1,211 @@
+.LPTS__wrapper {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(15, 14, 14, 0.5);
+  z-index: 999;
+}
+
+.LPTS__section{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.LPTS__h2{
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  font-family: Roboto-Bold;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/*css section */
+.LPTS{
+  width: 1286px;
+  height: 630px;
+  margin: 0 auto; 
+  border-radius: 10px;
+  box-shadow: 0px -2px 26px rgba(0, 0, 0, 0.22);
+  background-color: #fff;
+} 
+
+/*css section container*/
+
+.LPTS__section .section-container .section-element{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+.LPTS__section .section-element i{
+  width: 20px;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+.LPTS__section .section-element > label{
+  font-size: 20px;
+  width: 209px;
+  height: 36px;
+  padding-top: 5px;
+}
+.LPTS__section .element--margin{
+  margin-right: 30px;
+}
+
+.LPTS__section .section-element__input{
+  height: 38px;
+  padding: 10px 110px 10px 10px;
+  background: #FFFFFF;
+  box-shadow: inset 0px 0px 2.89754px rgba(0, 0, 0, 0.35);    
+  border-radius: 4px;
+  border: 1px solid #c4c4c4;
+  font-size: 13px;
+}
+
+.LPTS__section .section-element .section-element__input:hover,
+.LPTS__section .section-element .section-element__input:focus
+{
+  border: 1px solid #348D7C;
+}
+
+.LPTS__section .section-element ::placeholder{
+  /* color: #000; */
+  font-size: 16px;
+  font-family: Roboto-Italic;
+}
+.LPTS__section .section-element .section-element__click{
+  background: linear-gradient(180deg, #25BFA2 0%, #348D7C 100%);
+  font-size: 10px;
+  font-weight: 900;
+  color:#fff;
+  padding: 11px;
+  border-radius: 4px;
+  border: 1px solid #348D7C;
+  cursor: pointer;
+  position: relative;
+  right: 40px;
+  top:-1px;
+}
+.LPTS__section .button--hover:hover{
+  opacity: 0.7;
+}
+.LPTS__section input[type="number"] {
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+padding: 0px 5px 0px 15px;
+}
+.LPTS__section .section-element .section-element__date{
+  position: relative;
+  margin-right: 15px;
+}
+.LPTS__section .section-element .section-element__date::after,
+.LPTS__section .section-element .section-element__date::before
+{
+  text-align: center;
+  position: absolute;
+  right: 0;
+  width: 28px;
+  height: 19px;
+  font-size: 12px;
+  pointer-events: none;
+  background: #348d7c;
+}
+.LPTS__section .section-element .section-element__date::after{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "\25B2";
+  top: 0;
+  padding-top: 1px;
+}
+.LPTS__section .section-element .section-element__date::before{
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  content: "\25BC";
+  bottom: 0px;
+  padding-bottom: 1px;
+}
+.LPTS__section .section-element input[type="munber"]
+{
+  margin-right: 27px;
+  width: 70px;
+  padding: 10px 20px 10px 0;
+  box-shadow: inset 0px 0px 2.89754px rgba(0, 0, 0, 0.35);    
+  border-radius: 4px;
+  border: 1px solid #c4c4c4;
+  text-align: center;
+}
+
+/*css table*/
+.LPTS__section .section-tables{
+  /* margin-left: 20px; */
+   width: 50%;
+}
+.LPTS__section .container-table{
+  border-collapse: collapse;
+  letter-spacing: 1px;
+  width: 560px;
+  height: 317px;
+}
+.LPTS__section .section-tables .section-tables__heading{
+  padding: 10 0 10 0;
+}
+.LPTS__section .section-tables__heading > span{
+  font-size: 25px;
+  width: 209px;
+  height: 36px;
+  padding-top: 5px;
+}
+.LPTS__section .section-tables__heading i{
+  width: 20px;
+  margin-right: 10px;
+}
+.LPTS__section .container-table th, td{
+  height: 45px;
+  font-size: 16px;
+  padding: 1px 4px;
+  text-align: center;
+}
+.LPTS__section .container-table th{
+  background: linear-gradient(180deg, #25BFA2 0%, #348D7C 100%);
+  color: #fff;
+  
+}
+.LPTS__section .container-table td{
+  border-bottom: 1px solid #C4C4C4;
+}
+.LPTS__section .tables-table input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+} 
+.LPTS__section .section-tables__click{
+  padding-top: 40px;
+}
+.LPTS__section .section-tables__click .Click-success{
+  background: linear-gradient(180deg, #25BFA2 0%, #348D7C 100%);
+  font-size: 20px;
+  font-family: Roboto-Bold;
+  color:#fff;
+  padding: 11px;
+  border-radius: 4px;
+  border: 1px solid #348D7C;
+  cursor: pointer;
+  float: right;
+}
+.LPTS__section .section-tables__container{
+  max-height: 310px;
+  align-self: center;
+  overflow: auto;
+}
+.LPTS__section .section-tables__container thead{
+  position: sticky;
+  top: 0;
+}

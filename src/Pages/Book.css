@@ -1,0 +1,73 @@
+.container {
+ margin: 50px auto 0;
+}
+.table__book {
+    border-collapse: collapse;
+    border-bottom: 1px solid #c4c4c4;
+    font-size: 14px;
+    width: 1000px;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+    border-left: none;
+    border-right: none;
+    max-width: 300px;
+}
+
+.table__book-header th {
+    background-image: linear-gradient(to bottom, #25bfa2, #348d7c);
+    position: sticky;
+    top: -1px;
+}
+
+td {
+    text-align: center;
+}
+
+.table__book-header {
+    color: #fff;  
+}
+
+.table__check {
+    padding: 5px 10px;
+    width: 30px;
+    height: 30px;
+    padding-left: 0;
+}
+
+.table__check input[type="checkbox"] {
+    outline: none;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin-left: 0;
+}
+
+.table__stt {
+    padding: 10px;
+}
+
+.container__button {
+    align-self: center;
+    margin-top: 40px;
+}
+
+.button {
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, #25bfa2, #348d7c);
+    width: 152.4px;
+    height: 42.7px;
+    margin: 0 50px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

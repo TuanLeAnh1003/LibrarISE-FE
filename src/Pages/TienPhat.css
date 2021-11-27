@@ -1,0 +1,97 @@
+.container-PTTP {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 0;
+}
+.container-PTTP 
+.container__table {
+  align-self: center;
+  align-items: center;
+  margin-top: 30px;
+  overflow: auto;  
+  max-height: 50rem;
+}
+
+.container-PTTP .table__book {
+  border-collapse: collapse;
+  border-bottom: 1px solid #c4c4c4;
+  font-size: 14px;
+  text-align: center;  
+  width: 1200px;
+}
+
+.container-PTTP p {
+  font-size: 15px;
+}
+
+.container-PTTP td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+  border-left: none;
+  border-right: none;
+  max-width: 300px;
+}
+
+.container-PTTP .table__book-header th {
+  background-image: linear-gradient(to bottom, #25bfa2, #348d7c);
+  position: sticky;
+  top: -1px;
+}
+
+.container-PTTP td {
+  text-align: center; 
+}
+
+.container-PTTP .table__book-header {
+  color: #fff;
+  height: 46px;
+}
+
+.container-PTTP .table__check {
+  padding: 5px 10px;
+  width: 30px;
+  height: 30px;
+  padding-left: 0;
+}
+
+.container-PTTP .table__check input[type="checkbox"] {
+  outline: none;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  margin-left: 0;
+}
+/* 
+.container-PTTP .table__check input[type="checkbox"]::before {   
+  content: "";
+  position: relative;
+  display: block;
+  background-color: #fff;
+} */
+
+.container-PTTP .table__stt {
+  padding: 10px;
+}
+
+.container-PTTP .container__button {
+  align-self: center;
+  margin-top: 40px;
+}
+
+.container-PTTP .button {
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  background-image: linear-gradient(to bottom, #25bfa2, #348d7c);
+  width: 152.4px;
+  height: 42.7px;
+  margin: 0 50px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.container-PTTP .button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
